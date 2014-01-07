@@ -4,7 +4,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-"let mapleader=","
+let mapleader=","
 
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
@@ -46,5 +46,7 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Podfile,Isolate,config.ru,.kick} set ft=ruby
 
 cmap w!! w !sudo tee % >/dev/null
