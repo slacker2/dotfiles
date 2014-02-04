@@ -11,7 +11,6 @@ git clone https://github.com/tpope/vim-fugitive.git;
 git clone https://github.com/tpope/vim-haml.git;
 git clone https://github.com/tpope/vim-rails.git;
 git clone https://github.com/vim-ruby/vim-ruby.git;
-git clone https://github.com/tpope/vim-sensible.git;
 git clone https://github.com/tpope/vim-surround.git;
 git clone git://github.com/klen/python-mode.git
 
